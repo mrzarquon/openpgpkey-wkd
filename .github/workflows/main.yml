@@ -29,4 +29,4 @@ jobs:
       - name: Run a one-line script
         env:
           RCLONE_WEBDAV_PASS: ${{ secrets.RCLONE_WEBDAV_PASS }}
-        run: rclone sync /__w/openpgpkey-wkd/openpgpkey-wkd/.well-known --webdav-user chris@sneezingdog.com --webdav-vendor other --webdav-url https://webdav.fastmail.com :webdav:chrisb.zarind.com/files/openpgpkey/.well-known -P
+        run: rclone sync /__w/openpgpkey-wkd/openpgpkey-wkd/.well-known --webdav-user chris@sneezingdog.com --webdav-vendor other --webdav-url https://webdav.fastmail.com :webdav:chris.sneezingdog.com/files/openpgpkey/.well-known -P
